@@ -1,0 +1,158 @@
+---
+file-authors:
+  - name:
+    ORCID:
+file-version: 0
+chemked-version: 0.4.1
+reference:
+  doi: 10.1016/j.combustflame.2025.114743
+  authors:
+    - name: Jiaxin Xie
+    - name: Mengmeng Jia
+    - name: Frederick Nii Ofei Bruce
+    - name: Chong-Wen Zhou
+    - name: Henry Curran
+    - name: Taufiq Yap Yun Hin
+    - name: Song Cheng
+    - name: Ce Sun
+    - name: Fei Qin
+    - name: Yang Li
+  journal: Combustion and Flame
+  year: 2026
+  volume: 285
+  pages: 114743
+  detail: phi_1.0_EHN_0.005_P10bar
+experiment-type: ignition delay
+apparatus:
+  kind: shock tube
+  institution: Northwestern Polytechnical University
+  facility: high-pressure shock tube
+common-properties:
+  composition: &comp
+    kind: mole fraction
+    species:
+      - species-name: 2-ethylhexyl nitrate
+        InChI:
+        amount:
+          - 0.005
+      - species-name: O2
+        InChI: 1S/O2/c1-2
+        amount:
+          - 0.05375
+      - species-name: N2
+        InChI: 1S/N2/c1-2
+        amount:
+          - 0.94125
+  ignition-type: &ign
+    target: OH*
+    type: d/dt max
+datapoints:
+  - temperature:
+      - 1040.3 kelvin
+    ignition-delay:
+      - 904.93 us
+    pressure:
+      - 10.73 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1085.1 kelvin
+    ignition-delay:
+      - 580.94 us
+    pressure:
+      - 9.68 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1118.3 kelvin
+    ignition-delay:
+      - 502.87 us
+    pressure:
+      - 9.396 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1227.6 kelvin
+    ignition-delay:
+      - 274.97 us
+    pressure:
+      - 10.582 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1279.9 kelvin
+    ignition-delay:
+      - 228.45 us
+    pressure:
+      - 9.661 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1322.0 kelvin
+    ignition-delay:
+      - 149.23 us
+    pressure:
+      - 9.561 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1348.7 kelvin
+    ignition-delay:
+      - 109.37 us
+    pressure:
+      - 9.235 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1401.2 kelvin
+    ignition-delay:
+      - 103.93 us
+    pressure:
+      - 10.016 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1454.1 kelvin
+    ignition-delay:
+      - 83.89 us
+    pressure:
+      - 9.376 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1506.3 kelvin
+    ignition-delay:
+      - 55.72 us
+    pressure:
+      - 8.843 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1555.8 kelvin
+    ignition-delay:
+      - 39.49 us
+    pressure:
+      - 10.776 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+  - temperature:
+      - 1644.9 kelvin
+    ignition-delay:
+      - 28.66 us
+    pressure:
+      - 10.566 bar
+    composition: *comp
+    ignition-type: *ign
+    equivalence-ratio: 1.0
+...
