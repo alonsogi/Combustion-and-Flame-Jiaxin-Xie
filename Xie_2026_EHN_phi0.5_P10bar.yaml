@@ -51,6 +51,9 @@ datapoints:
       - 914.3 kelvin
     ignition-delay:
       - 589.88 us
+      uncertainty-type: relative
+      uncertainty: 
+         - 0.20
     pressure:
       - 10.479 bar
     composition: *comp
@@ -60,6 +63,9 @@ datapoints:
       - 956.7 kelvin
     ignition-delay:
       - 518.01 us
+      uncertainty-type: relative
+      uncertainty: 
+         - 0.20
     pressure:
       - 8.994 bar
     composition: *comp
@@ -67,6 +73,9 @@ datapoints:
     equivalence-ratio: 0.5
   - temperature:
       - 1033.4 kelvin
+      uncertainty-type: relative
+      uncertainty: 
+         - 0.20
     ignition-delay:
       - 251.03 us
     pressure:
@@ -78,6 +87,9 @@ datapoints:
       - 1127.0 kelvin
     ignition-delay:
       - 134.43 us
+      uncertainty-type: relative
+      uncertainty: 
+         - 0.20
     pressure:
       - 10.655 bar
     composition: *comp
@@ -87,6 +99,9 @@ datapoints:
       - 1225.5 kelvin
     ignition-delay:
       - 68.06 us
+      uncertainty-type: relative
+      uncertainty: 
+         - 0.20
     pressure:
       - 10.5 bar
     composition: *comp
@@ -96,6 +111,9 @@ datapoints:
       - 1233.0 kelvin
     ignition-delay:
       - 67.09 us
+      uncertainty-type: relative
+      uncertainty: 
+         - 0.20
     pressure:
       - 8.946 bar
     composition: *comp
@@ -105,6 +123,9 @@ datapoints:
       - 1309.0 kelvin
     ignition-delay:
       - 49.93 us
+      uncertainty-type: relative
+      uncertainty: 
+         - 0.20
     pressure:
       - 10.219 bar
     composition: *comp
@@ -114,6 +135,9 @@ datapoints:
       - 1326.9 kelvin
     ignition-delay:
       - 47.99 us
+        uncertainty-type: relative
+        uncertainty: 
+         - 0.20
     pressure:
       - 8.928 bar
     composition: *comp
@@ -123,6 +147,9 @@ datapoints:
       - 1409.9 kelvin
     ignition-delay:
       - 20.27 us
+       uncertainty-type: relative
+       uncertainty:
+         - 0.20
     pressure:
       - 10.213 bar
     composition: *comp
