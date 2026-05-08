@@ -32,7 +32,7 @@ common-properties:
     kind: mole fraction
     species:
       - species-name: 2-ethylhexyl nitrate
-        InChI: InChI=1S/C8H17NO3/c1-3-5-6-8(4-2)7-12-9(10)11/h8H,3-7H2,1-2H3
+        InChI: 1S/C8H17NO3/c1-3-5-6-8(4-2)7-12-9(10)11/h8H,3-7H2,1-2H3
         amount:
           - 0.005
       - species-name: O2
